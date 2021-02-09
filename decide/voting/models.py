@@ -6,7 +6,7 @@ from django.dispatch import receiver
 from base import mods
 from base.models import Auth, Key
 
-
+#CAMBIO PARA SOLVENTAR EL ERROR
 class Question(models.Model):
     desc = models.TextField()
 
